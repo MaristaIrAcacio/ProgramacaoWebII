@@ -1,0 +1,28 @@
+<!-- CÓDIGO PARA VERIFICAR SE NÚMERO É PAR OU IMPAR-->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+</head>
+<body>
+    <h1>Número par ou impar</h1>
+
+    <script type="text/javascript">
+		<!-- Necessário revisar javascript para uso do innerHTML-->
+        var numero = prompt("Informe um número para ser verificado");
+        document.body.innerHTML = "<h3>ANÁLISE REALIZADA COM SUCESSO</h3>";
+        if(numero % 2 == 0){
+            document.body.innerHTML = "<h4>O número é par!</h4>";
+        }else{
+            document.body.innerHTML = "<h4>O número é impar!</h4>";
+        }
+
+    </script>
+
+    
+</body>
+</html>

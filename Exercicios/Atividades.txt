@@ -1,0 +1,10 @@
+Atividades
+
+1 - Contrua uma aplicação utilizando JavaScript e, utilizando recursos de caixa de diálogo, emita mensagem com utilização de alert. Devem ser mensagens distintas e cada uma delas será exibida de acordo com a escolha do usuário. 
+
+2 - Crie um código que verifica, a partir da idade que deve ser informada pelo usuário, se ele é maior de idade ou não. Considere maior de idade quem tiver acima de 17 anos.
+
+3 - Crie um código que verifica se um número é par ou impar. Essa verificação deve ser impressa no corpo da página web. 
+
+4 - Escreva um código que solicita o nome do usuário e imprime na tela o nome sendo que cada letra deve ser separada por linha no corpo da página.
+
