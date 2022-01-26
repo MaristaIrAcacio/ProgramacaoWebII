@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+    body{
+        background: linear-gradient(to right, red, blue);         
+    }
+
+    .first-div{
+        top: 50%;
+        left: 50%;
+        position: absolute;
+        transform: translate(-50%,-45%);
+        padding: 70px;
+        background-color: rgba(0, 0, 0, 0.9);
+        border-radius: 1%;
+        color:yellowgreen;
+        font-family: sans-serif;
+
+    }
+    .first-div input[type = "text"]:focus, .first-div input[type = "password"]:focus{
+        width: 280px;
+        border-color: #2ecc71;
+    }
+    .first-div  input[type = "text"], .first-div  input[type  = "password"]{
+        border: 0;
+        background: none;
+        display: block;
+        margin: 20px  auto;
+        text-align: center;
+        border: 2px solid #3498db;
+        padding: 14px 10px;
+        width: 200px;
+        outline: none;
+        color: white;
+        border-radius: 24px;
+        transition: 0.25s;
+    }
+    a{
+        text-decoration: none;
+        color: rgb(228, 111, 15);
+    }
+    a::after{
+        content: "";
+        display: block;
+        width: 0;
+        height: 3px;
+        background: #5edfff;
+        transition: .5s ease-out;
+    }  
+    a:hover::after{
+        width: 100%;
+    }
+    .menuA{
+        color: black;
+        text-decoration: none;
+        padding: 10px 20px;
+        text-align: center;
+        
+    }
+    .login{
+        text-align: center; 
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: yellow;
+    }
+    .checkbox{
+        font-family: initial;
+        font-style: initial;
+    }
+    .button-1{
+        font-weight: bolder;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color:rgb(2, 2, 2);
+
+    }
+    .first-div button[type =  "submit"]{
+        border: 0;
+        background: none;
+        display: block;
+        margin: 20px  auto;
+        text-align: center;
+        border: 2px solid #2ecc71;
+        padding: 14px 40px;
+        outline: none;
+        color: white;
+        border-radius: 24px;
+        transition: 0.25s;
+        cursor: pointer;
+    }
+    .first-div button[type =  "submit"]:hover{
+        background:  #2ecc71;
+    }
+        </style>
+        <title>SE CADASTRE</title>
+
+    </head>
+    <body class="body">
+        <div class="first-div">
+            <h1 class="login">SE CADASTRE</h1>
+            <h4>Digite o seu usúario</h4>
+            <input type="text" placeholder="usuario">
+            <h4>Digite a sua senha</h4>
+            <input type="password" placeholder="senha">
+            <h4>Confirme a sua senha</h4>
+            <input type="password" placeholder="senha"><br><br>
+            <button class="button-1" type="submit">CADASTRAR</button><br><br>
+            <a href="index.html" class="a">já possui cadastro?</a><br><br>
+    
+        </div>
+</body>
+</html>

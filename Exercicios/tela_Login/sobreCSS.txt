@@ -1,0 +1,1 @@
+Eu não fiz um arquivo pro css, porque estava bugando quando colocava aqui na pasta, então fiz dentro de cada um mesmo
